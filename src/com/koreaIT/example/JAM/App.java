@@ -27,7 +27,7 @@ public class App {
 				System.out.println("드라이버 로딩 실패");
 				e.printStackTrace();
 			}
-
+ 
 			String url = "jdbc:mysql://127.0.0.1:3306/JAM?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&useOldAliasMetadataBehavior=true&zeroDateTimeNehavior=convertToNull";
 
 			try {
